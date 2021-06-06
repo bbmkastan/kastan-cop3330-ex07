@@ -19,7 +19,7 @@ public class App {
         double width = myApp.getWidth();
 
         double areaFeet = length * width;
-        double feetToMeters = 0.09290304;
+        final double feetToMeters = 0.09290304;
         double areaMeters = areaFeet * feetToMeters;
 
         myApp.printOutput(areaFeet, areaMeters);
